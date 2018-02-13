@@ -1,0 +1,28 @@
+Tema2 - CryptoFun
+
+Taskul 1:
+	- foloseste functia XOR_STRINGS pentru a realiza criptare.
+	- functia are ca 2 parametrii reprezentand primul cuvant din mesaj
+(stocat in esi),respectiv cheie(stocat in edi)
+	- se face xor caracter cu caracter folosind registrele eax si ebx
+	- pentru parcurgerea intregului cuvant am facut un loop
+	- se intoarce in main unde se trece la urmatoarele cuvinte.
+
+Taskul 2:
+	- foloseste functia ROLLING_XOR
+	- are loc criptarea in lant
+	- functia are 1 singur parametru(Stocat in esi),iar xor ul se face in 
+lant
+	- primul carater ramane necriptat
+	- urmatorul este rezultatul intre xor ul dintre primul element si el 
+insusi s.a.m.d pentru fiecare element
+	- am folosit ca registre tot eax,ebx
+	- pentru parcurgerea intregului cuvant am facut un loop
+ 
+
+Taskul 3:
+	- foloseste functia CONVERSIE si XOR_STRINGS folosita la taskul 1
+	- cheia si mesajul se transforma mai intai in caractere in baza 16
+	- se aplica functia de la taskul 1 
+
+

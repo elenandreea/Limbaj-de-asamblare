@@ -260,54 +260,6 @@ main:
         
         pop ecx
         pop ecx
-        
-	; TASK 4: decoding a base32-encoded string
-	; TODO: compute address on stack for string 6
-	; TODO: implement and apply base32decode
-	;push addr_str6
-	;call base32decode
-	;add esp, 4
-
-	; Print the fourth string
-	;push addr_str6
-	;call puts
-	;add esp, 4
-
-	; TASK 5: Find the single-byte key used in a XOR encoding
-	; TODO: determine address on stack for string 7
-	; TODO: implement and apply bruteforce_singlebyte_xor
-	;push key_addr
-	;push addr_str7
-	;call bruteforce_singlebyte_xor
-	;add esp, 8
-
-	; Print the fifth string and the found key value
-	;push addr_str7
-	;call puts
-	;add esp, 4
-
-	;push keyvalue
-	;push fmtstr
-	;call printf
-	;add esp, 8
-
-	; TASK 6: Break substitution cipher
-	; TODO: determine address on stack for string 8
-	; TODO: implement break_substitution
-	;push substitution_table_addr
-	;push addr_str8
-	;call break_substitution
-	;add esp, 8
-
-	; Print final solution (after some trial and error)
-	;push addr_str8
-	;call puts
-	;add esp, 4
-
-	; Print substitution table
-	;push substitution_table_addr
-	;call puts
-	;add esp, 4
 
 	; Phew, finally done
     xor eax, eax
